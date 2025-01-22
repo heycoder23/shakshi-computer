@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  color: #000;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fef9e1;
+}
+
+header {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo1 {
+  height: 100%;
+  width: 20%;
+}
+header .logo1 img {
+  height: 100%;
+  width: 100%;
+  padding-top: 3%;
+  background: transparent;
+}
+header .logo2 {
+  height: 100%;
+  width: 20%;
+}
+header .logo2 img {
+  height: 100%;
+  width: 100%;
+}
+header .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .name h1 {
+  color: #a31d1d;
+  font-family: "Rubik Wet Paint", serif;
+  font-weight: 400;
+  font-size: 4.3rem;
+}
+header .name h2 {
+  color: #6d2323;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+header .name h5 {
+  color: #6d2323;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+/* navbar start....................................................................... */
+nav {
+  width: 100%;
+  height: 8%;
+  background-color: #e5d0ac;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  height: 100%;
+  width: 100%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #545454;
+}
+nav ul li a:hover {
+  transition: all;
+  transition-timing-function: ease-in-out;
+  font-size: 1.1rem;
+  transition-duration: 0.2s;
+}
+/* home section............................................................................... */
+#home{
+    height: 70vh;
+    width: 100%;
+    background-image: url(img/rrr.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#home  h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+    text-align: center;
+}
+#home p{
+color: #fef9e1;
+font-size: 1rem;
+max-width: 60%;
+text-align: center;
+}
+/* our services............................................................................ */
+#services {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+#services h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #6d2323;
+}
+#services .sec_first {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#services .sec_first div {
+  height: 100%;
+  width: 25%;
+  border-radius: 5%;
+  background-image: url(img/Basic\ Computer\ Programming.gif);
+}
+#services .sec_second {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.7%;
+  align-items: center;
+}
+#services .sec_second div {
+  height: 100%;
+  width: 25%;
+  background-image: url(img/Basic\ Computer\ Programming.gif);
+  border-radius: 5%;
+}
+#services .sec_first div div {
+  height: 70%;
+  margin: 5% 5% 0% 5%;
+  width: 90%;
+  background-color: gold;
+}
+#services .sec_second div div {
+  height: 70%;
+  margin: 5% 5% 0% 5%;
+  width: 90%;
+  background-color: gold;
+}
+#services .sec_second div h3 {
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+#services .sec_first div h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.services_photo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4%;
+}
+/* work sections,,,,,,,...................................... */
+#work {
+  height: auto;
+  width: 100%;
+  background-image: url(img/btn_bg.jpg);
+  margin: 2% 0%;
+}
+#work .work_main,
+.work_main img {
+  height: 100vh;
+  width: 100%;
+}
+.work_main img {
+  padding: 2%;
+}
+.work_main2 {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left,
+.right {
+  width: 50%;
+  height: 100%;
+}
+.left img,
+.right img {
+  height: 100%;
+  width: 100%;
+}
+/* card section...................................................................... */
+#card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-image: url(img/bbb.gif);
+}
+#card h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+#card .card_first {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#card .card_first div {
+  height: 100%;
+  width: 25%;
+  border-radius: 5%;
+  background-image: url(img/Basic\ Computer\ Programming.gif);
+}
+#card .card_second {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#card .card_second div {
+  height: 90%;
+  width: 25%;
+  background-image: url(img/Basic\ Computer\ Programming.gif);
+  border-radius: 5%;
+}
+#card .card_first div div {
+  height: 70%;
+  margin: 5% 5% 0% 5%;
+  width: 90%;
+  background-color: gold;
+}
+#card .card_second div div {
+  height: 70%;
+  margin: 5% 5% 0% 5%;
+  width: 90%;
+  background-color: gold;
+}
+#card .card_second div h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+#card .card_first div h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.card_photo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4%;
+}
+/* about us........................................................................... */
+#about {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-image: url(img/network-dynamic-installations-gkxexxrw8wls9zpb.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#about h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #e5d0ac;
+  margin-top: 0%;
+}
+#about .about_main1,
+#about .about_main2 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#about .about_main1 .name_bholu {
+  height: 100%;
+  width: 60%;
+}
+#about .about_main1 .bholu_photo {
+  height: 90%;
+  width: 18%;
+  border-radius: 50%;
+  background-color: #545454;
+}
+#about .about_main2 .sri_photo {
+  height: 90%;
+  width: 18%;
+  background-color: #a31d1d;
+  border-radius: 50%;
+}
+#about .about_main2 .name_sri {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 10%;
+}
+#about .about_main2 .name_sri h2 {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 2rem;
+}
+#about .about_main2 .name_sri p {
+  max-width: 75%;
+  margin-left: 2%;
+  line-height: 1.5rem;
+  color: #fff;
+}
+span {
+  font-size: 4rem;
+  font-family: "Macondo", serif;
+  color: #fff;
+}
+#about .about_main1 .name_bholu {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 2%;
+}
+#about .about_main1 .name_bholu h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #fff;
+}
+#about .about_main1 .name_bholu p {
+  max-width: 70%;
+  margin-left: 2%;
+  line-height: 1.5rem;
+  color: #fff;
+}
+.bholu_photo {
+  background-image: url(img/bholu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* footer............................................................................ */
+footer {
+  height: 100vh;
+  width: 100%;
+  border: 2px solid #545454;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+footer h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #a31d1d;
+}
+.cont_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  height: 90%;
+  padding: 0% 5%;
+}
+.cont_area {
+  height: 90%;
+  width: 50%;
+  background-color: #1e1c1c;
+  display: flex;
+}
+.cont1,
+.cont2 {
+  height: 100%;
+  width: 50%;
+}
+.cont1 .address,
+.cont1 .email {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.cont2 .call,
+.cont2 .facebook_main {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.address div {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  margin: 15% 2%;
+}
+.address div i {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.address h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.address p {
+  max-width: 60%;
+  text-align: center;
+  color: #fff;
+}
+.email div {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15% 2%;
+}
+.email div i {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.email h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.email p {
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.call div {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  margin: 15% 2%;
+}
+.call div i {
+  font-size: 2rem;
+  color: #fff;
+}
+.call h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.call p {
+  max-width: 60%;
+  text-align: center;
+  color: #fff;
+}
+.facebook_main div {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  margin: 15% 2%;
+}
+.facebook_main div i {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.facebook_main h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.facebook_main p {
+  max-width: 70%;
+  text-align: center;
+  color: #fff;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  background-image: url(img/flower.png);
+  background-position: center;
+}
